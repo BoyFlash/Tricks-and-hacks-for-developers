@@ -1,5 +1,6 @@
 ##### Atalhos para Visual Studio Code
 
+
 | Atalho  | Resultado |
 | ------------- | ------------- |
 | Ctrl + k + C  | comenta o conteúdo selecionado  |

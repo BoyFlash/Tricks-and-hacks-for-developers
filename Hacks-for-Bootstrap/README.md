@@ -3,9 +3,8 @@ Se trata de um framework para desenvolvimento de sites responsivos.
 Possui uma vasta biblioteca de componentes que facilita e agiliza o desenvolvimento de páginas web
 
 ###  Sugestões de cursos no youtube
-[Ricardo Maroquio - Curso de bootstrap 5](https://www.youtube.com/playlist?list=PL0YuSuacUEWuJN3qb6NP15bzqd8w_oAj7)
-[Matheus Battisti - Hora de codar](https://youtube.com/playlist?list=PLnDvRpP8Bnexu5wvxogy6N49_S5Xk8Cze)
-
+> Ricardo Maroquio <a href="https://www.youtube.com/playlist?list=PL0YuSuacUEWuJN3qb6NP15bzqd8w_oAj7">Curso de bootstrap 5</a> 
+> Matheus Battisti <a href="https://youtube.com/playlist?list=PLnDvRpP8Bnexu5wvxogy6N49_S5Xk8Cze">Curso de bootstrap 5</a> 
 
 ##### Principais classes do bootstrap
 
@@ -16,14 +15,6 @@ Possui uma vasta biblioteca de componentes que facilita e agiliza o desenvolvime
 |<576px|≥576px|≥768px|≥992px|≥1200px|≥1400px|
 |Extra small|Small|Medium|Large|Extra large|Extra extra large|
 
-|Breakpoint|	|Dimensions|
-|------------|------------|------------|
-||	None	|<576px|
-|	|sm	|≥576px
-|	|md	|≥768px
-|	|lg	|≥992px
-|	|xl	|≥1200px
-|	|xxl	|≥1400px
     
 ##### Infixos de classe
 ```
@@ -111,7 +102,7 @@ Ps: você pode adicionar mais tamanhos, colocando mais valores no mapa Sass $spa
 | mx-3 | margin na direita e na esquerda (eixo x) |
 | my-3 | margin no topo e bottom (eixo y) |
 | ms-auto | margin esquerda usando todo o tamanho disponível à esquerda|
-| ms-auto | margin esquerda usando todo o tamanho disponível à esquerda|
+| mx-auto | margin automatica no eixo x|
 | **Pode ser**  | **utilizado com breakpoints** |
 | p-3  | coloca padding de 1 rem em todos os lados  |
 | ps-3 | padding esquerda | 
@@ -123,3 +114,15 @@ Ps: você pode adicionar mais tamanhos, colocando mais valores no mapa Sass $spa
 | **Deslocamento**  | **utilizado com breakpoints** |
 | offset-1 | uma coluna deslocada para direita |
 | offset-2 | duas coluna deslocada apartir da coluna anterior|
+
+##### Classes para textos
+| Comando                           | O que faz?                  | Observação                     |
+| --------------------------------- | --------------------------- | ------------------------------------ |
+| `class="lead"`                    | estiliza o paragrafo        | ![](https://i.imgur.com/PC0L07N.jpg) |
+| `class="blockquote"`              | paragrafo de citação        | ![](https://i.imgur.com/PC0L07N.jpg) |
+
+##### Estilização para lista
+| Comando                           | O que faz?                  | Observação                     |
+| --------------------------------- | --------------------------- | ------------------------------------ |
+| `class="list-unstyled"`           | retira a estilização        | ![]() |
+| `ul class="list-inline" li class="list-inline-item"`            | colocar (li)s em linha        | ![]() |
