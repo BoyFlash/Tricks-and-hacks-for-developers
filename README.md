@@ -1,6 +1,6 @@
 <h1 align="center"> Truques && Macetes for desenvolvedores</h1>
 
-Minhas anotações e sacadas dos cursos que fiz durante a carreira
+Minhas anotações e sacadas dos cursos que fiz durante a carreira.
 
 O conteúdo está organizado em arquivos readme.md em cada pasta.
 
